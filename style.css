@@ -95,7 +95,7 @@ padding-bottom:1.5em;}
   background-image: url("blackwindow-04.png");
   background-size: 100%;
     background-repeat: no-repeat;
-  width:75%;
+  width:77%;
   /* border: 1px solid black; */
   height:50%;
 font-size:.8em;
@@ -253,7 +253,7 @@ padding: 2em;}
 
         .section2 {
         height:100vh;
-        width:10%; /*importnat*/
+        width:30%; /*importnat*/
         grid-column: 1/4;
         background-color: white;
         padding-left: 30%;
@@ -265,9 +265,9 @@ padding: 2em;}
 
       .section2 div{
         background-image: url("notepad-03.png");
-        background-size: 70vw; /*importnat*/
+        background-size: 100%; /*importnat*/
           background-repeat: no-repeat;
-        width:60%;
+        width:70%;
         /* border: 1px solid black; */
       font-size:.9em;
       line-height: 1.5;
