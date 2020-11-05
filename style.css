@@ -1,36 +1,96 @@
-body{
+@font-face {
+    font-family: 'CascadiaCode';
+    src: url('CascadiaCode.woff2') format('woff2'),
+    src: url('CascadiaCodePL.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
 }
 
 
-.welcome{
-  padding-left: 35%;
-  font-size: .5vw;
-  padding-top: 15%
-}
-
-.variable{
-  padding-left: 20%;
-  font-size: 1vw;
-}
-
-.window{
-  z-index: 10;
-  position:fixed;
-  width:98vw;
-
-}
 
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)  { /* STYLES GO HERE */}
 
+/*PHONE*/
+@media (min-width:320px) {
+  body{font-family: 'CascadiaCode', sans-serif;
+  }
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-  .window{
-    z-index: 10;
+  [id^=div] {
+      display:none;}
+
+  p{
+    padding: 1em;
+  }
+
+  .welcome{
+    padding-left: 25%;
+    font-size: 1vw;
+    padding-top: 25%
+  }
+  .butterfly{
+    padding-left: 40%;
+    position:inherit;
+    z-index: 100;
+  }
+
+  .variable{
+    padding-left: 10%;
+    font-size: 1.5vw;
+  }
+#window{display:none;}
+
+  #smallwindow{
+    display:block;
     position:fixed;
-    width:98vw;
+    width:95vw;
+
+  }
+
 }
+
+
+
+/*IPAD*/
+@media (min-width:801px)   { /* STYLES GO HERE */}
+
+
+
+/*DESKTOP*/
+@media (min-width:1025px){
+    body{font-family: 'CascadiaCode', sans-serif;
+    }
+
+    [id^=div] {
+        display:none;}
+
+    .butterfly{
+      padding-left: 30%;
+      position:inherit;
+      z-index: 100;
+    }
+
+    .welcome{
+      padding-left: 35%;
+      font-size: .5vw;
+      padding-top: 15%
+    }
+
+    .variable{
+      padding-left: 20%;
+      font-size: 1vw;
+    }
+
+    p{
+      padding: 5em;
+    }
+
+    #smallwindow{
+      display:none;}
+
+    #window{
+      display:block;
+      position:fixed;
+      width:98vw;
+
+    }
+  }
