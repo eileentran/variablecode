@@ -1,0 +1,36 @@
+body{
+}
+
+
+.welcome{
+  padding-left: 35%;
+  font-size: .5vw;
+  padding-top: 15%
+}
+
+.variable{
+  padding-left: 20%;
+  font-size: 1vw;
+}
+
+.window{
+  z-index: 10;
+  position:fixed;
+  width:98vw;
+
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  { /* STYLES GO HERE */}
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .window{
+    z-index: 10;
+    position:fixed;
+    width:98vw;
+}
