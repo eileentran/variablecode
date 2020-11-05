@@ -10,7 +10,17 @@
 
 
 
-/*PHONE*/
+/*PHONE
+
+ ___ ___   ___   ____   ____  _        ___
+|   |   | /   \ |    \ |    || |      /  _]
+| _   _ ||     ||  o  ) |  | | |     /  [_
+|  \_/  ||  O  ||     | |  | | |___ |    _]
+|   |   ||     ||  O  | |  | |     ||   [_
+|   |   ||     ||     | |  | |     ||     |
+|___|___| \___/ |_____||____||_____||_____|
+
+*/
 @media (min-width:320px) {
   body{font-family: 'CascadiaCode', monospace, sans-serif;
   }
@@ -67,7 +77,7 @@ padding-bottom:1.5em;}
   .container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 75vh;
+  grid-template-rows: 75vh 75vh;
 }
 
   .section1 {
@@ -97,13 +107,58 @@ padding: 2em;}
   .section1 img{
     height:50%;}
 
+    .section2 {
+    height:100vh;
+    grid-column: 1/4;
+    background-color: white;
+    padding-left: 1em;
+    display:absolute;
+    justify-content: space-evenly;
+    /* align-items:stretch;} */
 
-/*IPAD*/
+  }
+
+  .section2 div{
+    background-image: url("notepad-03.png");
+    background-size: 100%;
+      background-repeat: no-repeat;
+    width:75%;
+    /* border: 1px solid black; */
+    height:50%;
+  font-size:.8em;
+  line-height: 1.5;
+  color:black;
+  padding: 3em 3em 2em 2em;}
+
+
+    .section2 img{
+      height:50%;}
+
+
+/*IPAD
+ ____  ____   ____  ___
+|    ||    \ /    ||   \
+ |  | |  o  )  o  ||    \
+ |  | |   _/|     ||  D  |
+ |  | |  |  |  _  ||     |
+ |  | |  |  |  |  ||     |
+|____||__|  |__|__||_____|
+*/
 @media (min-width:801px)   { /* STYLES GO HERE */}
 
 
 
-/*DESKTOP*/
+/*DESKTOP
+
+ ___      ___  _____ __  _ ______   ___   ____
+|   \    /  _]/ ___/|  |/ ]      | /   \ |    \
+|    \  /  [_(   \_ |  ' /|      ||     ||  o  )
+|  D  ||    _]\__  ||    \|_|  |_||  O  ||   _/
+|     ||   [_ /  \ ||     \ |  |  |     ||  |
+|     ||     |\    ||  .  | |  |  |     ||  |
+|_____||_____| \___||__|\_| |__|   \___/ |__|
+
+*/
 @media (min-width:1025px){
     body{font-family: 'CascadiaCode', monospace, sans-serif;
     }
