@@ -161,7 +161,6 @@ padding: 2em;}
 */
 @media (min-width:1025px){
     body{font-family: 'CascadiaCode', monospace, sans-serif;
-    cursor:url("Normal Select.cur"), pointer;
     }
 
     [id^=div] {
@@ -210,10 +209,19 @@ padding: 2em;}
     #smallwindow{
       display:none;}
 
-    #window{
+    .window{
       display:block;
       position:fixed;
-      width:98vw;
+      width:100vw;
+      height:100vh;
+      /* margin:-2rem;
+      padding:0; */
+      }
+      .window img{
+        object-fit: cover;
+        margin:-1rem;
+          width:100vw;
+          height:102vh;
       }
 
       .container{
@@ -277,6 +285,11 @@ padding: 2em;}
 
         .section2 img{
           height:50%;}
+/*
+          /* Start http://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/food/foo-5/foo459.ani), url(http://cur.cursors-4u.net/food/foo-5/foo459.png), auto !important;} /* End http://www.cursors-4u.com */
+*/
+
+
 
     }
   }
