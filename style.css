@@ -274,8 +274,73 @@ padding: 2em 1.5em 1.5em 1.5em ;}
 */
 @media (min-width:801px)   {
 
+  .jiggle {
+      -webkit-animation: jiggle 0.2s infinite;
+      -moz-animation-duration: 0.2s;
+      -moz-animation-name: jiggle;
+      -moz-animation-iteration-count: infinite;
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+  }
+
+  @-moz-keyframes jiggle {
+      0% {
+          -moz-transform: rotate(-1deg);
+      }
+      50% {
+          -moz-transform: rotate(1deg);
+      }
+  }
+
+  @-webkit-keyframes jiggle {
+      0% {
+          -webkit-transform: rotate(-1deg);
+          }
+      50% {
+          -webkit-transform: rotate(1deg);
+      }
+  }
+
+
+  .onemoretime {
+    padding-left: 3rem;
+    position: absolute;
+    padding-top: 20%;
+  }
+
+  .vid{
+    position:absolute;
+    padding-left: 60%;
+  }
+
+  .page3vid{
+    padding-left:15%;
+    position:absolute;
+    width: 50%;
+    padding-top: 35%;
+  }
+
+
+.page2vid{
+padding-left:51%;
+position:absolute;
+padding-top: 65%;
+}
+
+.gimmemore{
+padding-left:60%;
+position:absolute;
+padding-top: 85%;
+}
+
+.onemoretime {
+padding-left: 3rem;
+position: absolute;
+padding-top: 20%;
+}
+
   .whatisjs{
-    padding:15% 0% 0% 5%;
+    padding:30% 0% 0% 5%;
     font-size: .63vw;
   }
 
@@ -342,24 +407,27 @@ padding-left: 10rem;
                   margin-left: auto;
                   margin-right: auto;
                   padding-top:10%;
-                  padding-left: 15%;}
+                  position: absolute;
+                  padding-left: 15%;
+                width: 85%;}
 
                   .page3body2 img{
                     display: block;
-                    width: 55%;
-                      padding: 5rem 3rem 0 8rem;
+                    width: 75%;
+                      padding: 60rem 3rem 0 8rem;
                   }
 
                   .page3body3 img{
                     display: block;
-                    width: 40%;
+                    width: 60%;
                       padding: 5rem 20rem 0 20rem;
                   }
 
                   .music img{
-                    width: 50%;
+                    width: 70%;
                     padding-left:20%;
                   padding-top:10%;
+                  position: absolute;
 
                   }
 
@@ -368,8 +436,8 @@ padding-left: 10rem;
                     width:10%;
                     position: absolute;
                     padding-left: 40%;
-                    padding-top:20%;
-                    padding-bottom:10%;
+                    padding-top:80%;
+                    padding-bottom:60%;
                   }
 
 
@@ -439,13 +507,13 @@ padding-left: 10rem;
                     background-image: url("blackwindow-04.png");
                     background-size: 100%;
                       background-repeat: no-repeat;
-                    width:100%;
+                    width:150%;
                     /* border: 1px solid black; */
                     height:100%;
-                  font-size:1em;
+                  font-size:1.8em;
                   line-height: 1.3;
                   color:white;
-                  padding: 4em 2em 4em 2em;}
+                  padding: 3em 2em 3em 2em;}
 
 
                     .section1 img{
@@ -468,9 +536,9 @@ padding-left: 10rem;
                       background-image: url("notepad-03.png");
                       background-size: 100%; /*importnat*/
                         background-repeat: no-repeat;
-                      width:100%;
+                      width:150%;
                       /* border: 1px solid black; */
-                    font-size:.9em;
+                    font-size:1.7em;
                     line-height: 1.3;
                     color:black;
                     padding: 3em 3em 0em 2em;}
@@ -483,7 +551,7 @@ padding-left: 10rem;
               .section3 {
 
                 display:grid;
-              grid-template-columns: 40% 40%;
+              grid-template-columns: 0% 40%;
               grid-template-rows: 95vh;
               grid-column:1/4;
               height:100vh;
