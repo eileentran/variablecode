@@ -32,12 +32,126 @@
 padding-left:.5em;
       }
 
+      @font-face {
+          display: none;
+      }
+
+      @font-face {
+          display: none;
+      }
+
+      @font-face {
+          display: none;
+      }
+
+      #board {
+          display: none;
+      }
+
+      button {
+          display: none;
+      }
+
+      button:hover {
+          display: none;
+      }
+
+      #clock {
+          display: none;
+      }
+
+      .flex-container {
+          display: none;
+      }
+
+      #folder1 {
+          display: none;
+      }
+
+      #folder2 {
+          display: none;
+      }
+
+      #folder-bar {
+          display: none;
+      }
+
+      #footer {
+        display: none;
+      }
+
+      .menu a {
+          display: none;
+      }
+
+      #reset {
+          display: none;
+      }
+
+      .revealed {
+          display: none;
+      }
+
+      #reset:hover {
+        display: none;
+      }
+
+      .sidebar {
+        display: none;
+      }
+
+      #size-btns {
+          display: none;
+      }
+
+      #start {
+          display: none;
+      }
+
+      #status-bar  {
+          display: none;
+      }
+
+      td {
+          display: none;
+      }
+
+      #timer, #bomb-counter {
+          display: none;
+      }
+
+      #window-controls {
+          display: none;
+      }
+
+      #window-title {
+          display: none;
+      }
+
+      #window-title-bar {
+          display: none; }
+
   p{
     padding: 1em;
   }
 
+  .onemoretime {
+    padding-left: 0rem;
+    position: absolute;
+    padding-top: 30%;
+  }
+
+  .vid{
+    position:absolute;
+  }
+
+  .page3vid{
+    position: absolute;
+  }
+
 .downarrow{
 padding-left:35%;
+padding-top: 90%;
 padding-bottom:1.5em;}
 
   .arrow{
@@ -97,6 +211,7 @@ padding-bottom:1.5em;}
   height:100vh;
   grid-column: 1/4;
   background-color: white;
+  padding-top: 20%;
   padding-left: 2em;
   display:absolute;
   justify-content: space-evenly;
@@ -108,7 +223,7 @@ padding-bottom:1.5em;}
   background-image: url("blackwindow-04.png");
   background-size: 100%;
     background-repeat: no-repeat;
-  width:60%;
+  width:69%;
   /* border: 1px solid black; */
   height:50%;
 font-size:.85em;
@@ -124,6 +239,7 @@ padding: 2em 1.5em 1.5em 1.5em ;}
     height:100vh;
     grid-column: 1/4;
     background-color: white;
+    padding-top:20%;
     padding-left: 2em;
     display:absolute;
     justify-content: space-evenly;
@@ -135,13 +251,18 @@ padding: 2em 1.5em 1.5em 1.5em ;}
     background-image: url("notepad-03.png");
     background-size: 100%;
       background-repeat: no-repeat;
-    width:60%;
+    width:65%;
     /* border: 1px solid black; */
     height:50%;
   font-size:.85em;
   line-height: 1.2;
   color:black;
   padding: 2em 2em 1em 1em;}
+
+  .page2vid{
+  position:absolute;
+  padding-top: 25%;
+  }
 
 
     .section2 img{
@@ -155,7 +276,7 @@ padding: 2em 1.5em 1.5em 1.5em ;}
       }
 
       .section3 div{
-        padding: 0rem 4rem 4rem 1rem;
+        padding: 0rem 4rem 0rem 1rem;
         height:50%;
       width:100%;
       }
@@ -170,6 +291,9 @@ padding: 2em 1.5em 1.5em 1.5em ;}
             .whatisjs{
               padding:41% 0% 0% 5%;
               font-size: .7vw;
+            }
+            .page2body{
+              padding-top:120%;
             }
 
             .page2body img{
@@ -213,8 +337,7 @@ padding: 2em 1.5em 1.5em 1.5em ;}
               font-size: .7vw;}
 
               .snoop img{
-                width:95%;
-                padding-left: 2%;
+                transform: translate(-22%, -17%);
               padding-bottom:10%}
 
               .page3body img{
@@ -243,13 +366,13 @@ padding: 2em 1.5em 1.5em 1.5em ;}
                             .page3body3 img{
                               display: block;
                               width: 80%;
-                              padding: 5rem 3rem 0 3rem;
+                              padding: 5rem 3rem 6rem 3rem;
                             }
 
                             .music img{
                               width: 80%;
                               padding-left:10%;
-                            padding-top:10%;
+                            padding-top:100%;
 
                             }
 
