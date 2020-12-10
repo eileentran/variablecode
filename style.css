@@ -32,104 +32,14 @@
 padding-left:.5em;
       }
 
-      @font-face {
-          display: none;
-      }
-
-      @font-face {
-          display: none;
-      }
-
-      @font-face {
-          display: none;
-      }
-
-      #board {
-          display: none;
-      }
-
-      button {
-          display: none;
-      }
-
-      button:hover {
-          display: none;
-      }
-
-      #clock {
-          display: none;
-      }
 
       .flex-container {
           display: none;
       }
 
-      #folder1 {
-          display: none;
-      }
-
-      #folder2 {
-          display: none;
-      }
-
-      #folder-bar {
-          display: none;
-      }
-
-      #footer {
+      #footer{
         display: none;
       }
-
-      .menu a {
-          display: none;
-      }
-
-      #reset {
-          display: none;
-      }
-
-      .revealed {
-          display: none;
-      }
-
-      #reset:hover {
-        display: none;
-      }
-
-      .sidebar {
-        display: none;
-      }
-
-      #size-btns {
-          display: none;
-      }
-
-      #start {
-          display: none;
-      }
-
-      #status-bar  {
-          display: none;
-      }
-
-      td {
-          display: none;
-      }
-
-      #timer, #bomb-counter {
-          display: none;
-      }
-
-      #window-controls {
-          display: none;
-      }
-
-      #window-title {
-          display: none;
-      }
-
-      #window-title-bar {
-          display: none; }
 
   p{
     padding: 1em;
@@ -722,6 +632,7 @@ padding-left: 10rem;
     [id^=div] {
         display:none;}
 
+
         @font-face {
             font-family: "Digital Dismay";
             src: url("./digital-dismay.otf") format("truetype");
@@ -792,7 +703,7 @@ padding-left: 10rem;
             margin: 80px 10px;
             padding-left:3rem;
             position: absolute;
-            padding-top:60%;
+            padding-top:75%;
         }
 
         #folder1 {
@@ -1026,7 +937,9 @@ padding-left: 10rem;
       padding:20% 0% 5% 5%;
       font-size: .7vw;}
 
-      .snoop{padding-left:15%;
+      .snoop{
+            transform: translate(0, 0);
+            padding-left:35%;
       padding-bottom:5%;
     width:70%;}
 
@@ -1058,8 +971,10 @@ padding-left: 10rem;
     }
 
     .downarrow{
+      padding-top:0;
     padding-left:45%;
     padding-bottom:1.5em;}
+
 
     .mj img{
       padding-left:20%;
@@ -1109,6 +1024,7 @@ padding-left: 10rem;
       grid-column: 1/4;
       background-color: white;
       padding-left: 8em;
+      padding-top:5%;
       display:absolute;
       justify-content: space-evenly;
       /* align-items:stretch;} */
@@ -1139,6 +1055,7 @@ padding-left: 10rem;
         background-color: white;
         padding-left: 30%;
         display:absolute;
+        padding-top: 10%;
         justify-content: space-evenly;
         /* align-items:stretch;} */
 
@@ -1209,6 +1126,10 @@ padding: 4em 2em 4em 2em;}
 
   .section4 img{
     height:100%;}
+
+    .page2body{
+      padding-top:0%;
+    }
 
 
 .page2body img{
