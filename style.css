@@ -28,7 +28,7 @@
   [id^=div] {
       display:none;}
 
-      h1{font-family: 'CascadiaCode', arial, sans-serif;
+      h1{font-family: 'CascadiaCode', monospace, sans-serif;
 padding-left:.5em;
       }
 
@@ -960,7 +960,7 @@ padding-left: 10rem;
           width:45%;
       }
 
-    h1{font-family: 'CascadiaCode', arial, sans-serif;
+    h1{font-family: 'CascadiaCode', monospace, sans-serif;
     padding-left:2em;
     }
 
