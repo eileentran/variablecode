@@ -700,10 +700,9 @@ padding-left: 10rem;
         .flex-container {
             display: flex;
             justify-content: center;
-            margin: 80px 10px;
-            padding-left:3rem;
+            padding-left:60%;
             position: absolute;
-            padding-top:75%;
+            padding-top:30%;
         }
 
         #folder1 {
@@ -905,8 +904,8 @@ padding-left: 10rem;
       width:7%;
       position: absolute;
       padding-left: 49%;
-      padding-bottom:10%;
-      padding-top:15%;
+      padding-bottom:30%;
+      padding-top:20%;
     }
 
     .home{
